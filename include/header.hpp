@@ -3,4 +3,8 @@
 #ifndef INCLUDE_HEADER_HPP_
 #define INCLUDE_HEADER_HPP_
 
+#include <vector>
+#include <cstdint>
+#include <iterator>
+
 #endif // INCLUDE_HEADER_HPP_
