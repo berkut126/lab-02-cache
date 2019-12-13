@@ -1,10 +1,11 @@
-// Copyright 2018 Your Name <your_email>
+// Copyright 2019 Andrey Ivanov <berkut126@gmail.com>
 
-#ifndef INCLUDE_HEADER_HPP_
-#define INCLUDE_HEADER_HPP_
-
-#include <vector>
+#pragma once
 #include <cstdint>
-#include <iterator>
-
-#endif // INCLUDE_HEADER_HPP_
+#include <vector>
+#include <numeric>
+#include <ctime>
+#include <cstdlib>
+#include <algorithm>
+#include <iostream>
+#include <chrono>
