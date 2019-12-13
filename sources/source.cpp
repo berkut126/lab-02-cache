@@ -6,8 +6,7 @@
 #include <BackwardIterator.h>
 #include <RandomIterator.h>
 
-// NOLINT(runtime/int)
-inline cache operator"" _mb(unsigned long long int size){
+inline cache operator"" _mb(unsigned long long int size){// NOLINT
     return cache(static_cast<int>(size) * 1024 * 1024 / 32);
 }
 

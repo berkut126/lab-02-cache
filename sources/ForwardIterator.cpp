@@ -11,8 +11,8 @@ forward_iterator& forward_iterator::operator++() noexcept {
   ++holder_;
   return *this;
 }
-// NOLINT(readability/casting)
-forward_iterator forward_iterator::operator++(int) noexcept {
+
+forward_iterator forward_iterator::operator++(int) noexcept {// NOLINT
   const forward_iterator temp(holder_, reference_);
   ++holder_;
   return temp;

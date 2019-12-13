@@ -11,8 +11,8 @@ backward_iterator& backward_iterator::operator++() noexcept {
   --holder_;
   return *this;
 }
-// NOLINT(readability/casting)
-backward_iterator backward_iterator::operator++(int) noexcept {
+
+backward_iterator backward_iterator::operator++(int) noexcept {// NOLINT
   const backward_iterator temp(holder_, reference_);
   --holder_;
   return temp;
