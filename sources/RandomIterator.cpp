@@ -13,8 +13,8 @@ random_iterator& random_iterator::operator++() noexcept {
   ++holder_;
   return *this;
 }
-
-random_iterator random_iterator::operator++(int a) noexcept {
+// NOLINT(readability/casting)
+random_iterator random_iterator::operator++(int) noexcept {
   const random_iterator temp(holder_, reference_);
   ++holder_;
   return temp;
