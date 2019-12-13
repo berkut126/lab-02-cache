@@ -5,7 +5,6 @@
 
 class forward_iterator;
 class backward_iterator;
-
 class random_iterator;
 
 class cache {
